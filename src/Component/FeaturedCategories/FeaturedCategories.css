@@ -1,0 +1,47 @@
+.fc{
+background-color: #F3F4F6;
+padding: 80px;
+
+}
+
+.Ftext{
+color: black;
+font-size: 24px;
+font-family: 'Poppins';
+}
+
+.Ftext1{
+    margin-top: 12px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.83);
+}
+
+
+.fish{
+  margin-top: 40px;
+}  
+
+
+
+/* 
+                               /* column 1  */
+
+.container11 {
+    height: 129px;
+    width: 217px;
+    overflow: hidden;
+    background: #FFFCFC;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  
+
+
+
+
+
+

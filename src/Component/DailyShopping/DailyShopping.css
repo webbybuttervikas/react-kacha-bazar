@@ -1,0 +1,149 @@
+.ds{
+background-color: #F9FAFB;
+height: auto;
+width: 100%;
+padding-bottom: 67px;
+}
+
+.h1ds{
+    color: black;
+    font-size: 24px;
+    font-family: 'Poppins';
+}
+
+.span1inds{
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 27px;
+    color: rgba(0, 0, 0, 0.66);
+    text-align: center;
+    font-style: normal;
+
+}
+
+
+.quantity{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.64);
+}
+
+.productname{
+color: black;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+}
+
+.currency{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+}
+
+.icon{
+    font-size: 20px;
+    margin-left: 110px;
+}
+
+.icon1{
+    font-size: 20px;
+    margin-left: 150px;
+}
+
+                            /* column-1 */
+
+.boxx11{
+    width: 247.81px;
+    height: 267px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    }
+
+.DownloadApp{
+        background-color: #10B981;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 50px;
+        margin-top: 80px;
+    }
+
+.innerDownloadApp{
+        background-color: #FFFEFE;  
+        padding:45px ;
+    }
+
+
+    .span1{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .span2{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .buttonn{
+        width: 189px;
+        background: #10B981;
+        border-radius: 25px;
+        color: white;
+        border: #FFFFFF;
+        height: 44px;
+    }
+
+
+    .discount{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .discount2{
+        text-align: center;
+    }
+
+    .strike{
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        text-decoration-line: line-through;
+        color: rgba(0, 0, 0, 0.51);
+    }
+
+
+    .discount3{
+        width: 73px;
+        height: 28px;
+        background: #F97316;
+        border-radius: 8px;
+        position: absolute;
+        margin-top: 18px;
+        margin-left: 150px;
+
+    }
+    .discount3text{
+        color: rgba(255, 255, 255, 1);
+        font-weight: 500;
+        font-size: 14px;
+    }

@@ -1,0 +1,392 @@
+
+
+.card11{
+    /* background-color: #F7F7F7; */
+    background-image: url(../images/vegetable.png);
+    position: absolute;
+    width: 743px;
+    height: 324px;
+    left: 78px;
+    top: 150px;
+    background-color: #F7F7F7;
+    border-radius: 6px;
+}
+
+
+.card12{
+    position: absolute;
+    width: 361px;
+    height: 96px;
+    left: 20px;
+    top: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+   
+}
+
+.card13{
+    position: absolute;
+    width: 283px;
+    height: 48px;
+    left: 30px;
+    top: 150px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.64);
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+.button1{
+    position: absolute;
+    background: #10B981;
+    width: 145px;
+    height: 46px;
+    left: 30px;
+    top: 200px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.card21{
+    position: absolute;
+    width: 535px;
+    height: 350px;
+    left: 850px;
+    top: 150px;
+    background-color: rgba(217, 217, 217, 0.22);;
+    border-radius: 6px;
+    border: 2px solid #F88908;
+}
+
+.card22{
+ font-family: 'Poppins' ;
+ font-style: normal;
+ background-color:#F97B0742;
+ border-top-right-radius:6px;
+ border-top-left-radius:6px;
+ font-weight: 400;
+ font-size: 16px;
+ line-height: 40px;
+ text-align: center;
+ height: 41px; 
+ width: 533px;
+color: rgba(0, 0, 0, 0.76);;
+}
+
+.rectangle1 {
+    position: absolute;
+    width: 502px;
+    height: 133px;
+    top: 50px;
+    right: 50px;
+    left: 15px;
+    border-radius:6px;
+    background: #FFFCFC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.rectangle2{
+    position: absolute;
+    width: 502px;
+    height: 133px;
+    top: 200px;
+    right: 50px;
+    left: 15px;
+    border-radius:6px;
+    background: #FFFCFC;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.veg1{
+    position: absolute;
+    top: 6px;
+    left: 13px;
+}
+
+.h1ofsubcard1{
+    top: 14px;
+    left: 139px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FF0404;
+    display: inline-block; 
+}
+
+
+.button2{
+    position: absolute;
+    top: 14px;
+    left: 225px;
+    background: #D1FAE5;
+    border-radius: 25px;
+    width: 85px;
+    height: 29px;
+    border: none;
+}
+
+.textinbutton2{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #0F6C13;
+    text-align: top;
+}
+
+.summer1{
+    top: 45px;
+    left: 139px;
+    position: absolute;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.58);;
+    display: inline-block; 
+    line-height: 27px;
+}
+
+.square1{
+    top:80px;
+    left: 139px;
+    position: absolute;
+    height: 29px;
+    width: 25px;
+    background-color: #84BB80;
+    border-radius:5px;
+    text-align:center;
+  }
+  .square2{
+    top:80px;
+    left: 178px;
+    position: absolute;
+    height: 29px;
+    width: 25px;
+    background-color: #84BB80;
+    border-radius:5px;
+    text-align:center;
+  }
+
+.square3{
+    top:80px;
+    left: 220px;
+    position: absolute;
+    height: 29px;
+    width: 32px;
+    background-color: #84BB80;
+    border-radius:5px;
+    text-align:center;
+}
+
+.square4{
+    top:80px;
+    left: 270px;
+    position: absolute;
+    height: 29px;
+    width: 32px;
+    background-color: #84BB80;
+    border-radius:5px;
+    text-align:center;
+}
+
+
+
+  .time{
+    top: 1px;
+    color: white;
+    position: relative;
+  }
+
+  .comma11{
+    position: absolute;
+    left: 170px;
+    top: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+
+  .comma12{
+    position: absolute;
+    left: 210px;
+    top: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+  .comma13{
+    position: absolute;
+    left: 260px;
+    top: 80px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+  }
+ .vl{
+    position:absolute;
+    border:1px solid rgba(0, 0, 0, 0.6);
+    width: 105px;
+    height: 0px;
+    transform: rotate(90deg);
+ }
+
+ .qp{
+    position: absolute;
+    margin-top: 400px;
+    width: 1300px;
+    height: 123px ;
+    left: 80px;
+    background-color:  #FFE7E7;
+    border-radius: 6px;
+ }
+
+ .spaninqp{
+    position: absolute;
+    color: #057532;
+    font-weight:400;
+    font-size: 20px;
+    top: 27px;
+    left: 58px;
+    line-height: 30px;
+}
+
+
+ .spaninqp11{
+    color: black;
+    line-height: 30px;
+ }
+
+ .spaninqp12{
+    position: relative;
+    top: 30px;
+    right:335px;
+    width: auto;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.74);  
+ }
+
+ .button3{
+    position: absolute;
+    background: #10B981;
+    border-radius: 50px;
+    width: 129px;
+    height: 42px;
+    left: 1100px;
+    top: 42px;
+    color: white;
+    border: none;
+
+ }
+
+
+
+
+ <div className='container'>
+ <div className='card11 col-bg-6'>
+ <div>
+      <span className='card12 mt-5 mx-5 d-flex'>The Best Quality Product Guaranteed!</span>
+      <span className='card13 mx-5 d-flex'>
+        Quickly aggregate empowered networks after emerging products...
+      </span>
+      <button className='button1 mt-5 mx-5'>
+          Shop Now
+      </button>
+ </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+  {/* <div className="rectangle2">
+<img className='veg1' src={vegetable1}/>
+<div>
+    <span className='h1ofsubcard1'>
+      10 %  <span style={{color:"black"}}>off</span>
+    </span>
+    
+      <button className='button2'><span className='textinbutton2'>Active</span></button>
+           <span className='summer1'>Summer Gift Voucher</span>
+           <div className="square1"><span className="time">6</span>
+    </div>
+    <span className='comma11'>:</span>
+    <div className="square2"><span className="time">6</span>
+    </div>
+    <span className='comma12'>:</span>
+    <div className="square3"><span className="time">50</span>
+    </div>
+    <span className='comma13'>:</span>
+    <div className="square4"><span className="time">10</span>
+    </div>
+    </div>
+    </div> */}
+    {/* </div> */}
+
+
+{/* 100% natural organic product
+          <div className='qp'>
+          <span className='spaninqp'>100% Natural Quality <span className='spaninqp11'>Organic Product</span>
+          <span className='spaninqp12'>See Our latest discounted products from here and get a special discount product</span>
+          </span>
+          <button className='button3'>Shop Now</button>
+          </div> */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div className="rectangle1 mt-3">
+          <img className="veg1 mt-2 ms-2" src={vegetable1} />
+          <span className="h1ofsubcard1 mb-5">
+            10 % <span style={{ color: "black" }}>off</span>
+          </span>
+          <button className="button2">
+            <span className="textinbutton2">Active</span>
+          </button>
+          <div>
+            <span className="summer1">Summer Gift Voucher</span>
+          </div>
+          <div className="d-flex">
+            <span className="square1 time mx-2">6</span>
+            <span className="comma11">:</span>
+            <span className="square1 time mx-2">6</span>
+            <span className="comma11">:</span>
+            <span className="square1 time mx-2">50</span>
+            <span className="comma11">:</span>
+            <span className="square1 time mx-2">10</span>
+          </div>
+        </div>

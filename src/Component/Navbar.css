@@ -1,0 +1,16 @@
+.navbar-search{
+width: 100vh;
+height: 50px;
+}
+
+.faicon{
+    text-align: end;
+}
+
+.navbar-color{
+    background-color: #10B981;
+}
+
+.icon-col{
+color: white;
+}
