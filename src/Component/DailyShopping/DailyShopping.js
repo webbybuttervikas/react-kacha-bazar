@@ -1,20 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "../DailyShopping/DailyShopping.css";
 import boy from "../images/deliveryboy.png";
-import pump from '../images/pumpkin.png'
 import Pumpkins from "../Pumpkins/Pumpkins";
 import GreenLeaf from "../GreenLeaf/GreenLeaf";
-import list from '../Data/Data'
+import list from "../Data/Data";
 import list2 from "../Data/Data2";
 
-const DailyShopping = ({handleClick, handleIcon}) => {
-
-
-
+const DailyShopping = ({}) => {
   // useEffect(() => {
   //   console.log(cart)
   // }, [cart])
-  
 
   return (
     <>
@@ -30,19 +25,17 @@ const DailyShopping = ({handleClick, handleIcon}) => {
             <br />
             shipping.
           </span>
-    
+
           <div className="row row row-cols-2 row-cols-lg-5 g-2 g-lg-3 pt-5">
-            
-          {list.map((item) =>
-            <GreenLeaf key={item.id} item={item} handleClick={handleClick} handleIcon={handleIcon}/>)
-          }
-         
+            {list.map((item) => (
+              <GreenLeaf
+                key={item.id}
+                item={item}
+              />
+            ))}
           </div>
 
-
-                          {/* Download App BANNER */}
-
-
+          {/* Download App BANNER */}
 
           <div className="DownloadApp">
             <div className="innerDownloadApp">
@@ -67,29 +60,30 @@ const DailyShopping = ({handleClick, handleIcon}) => {
                 </div>
 
                 <div className="col-md-auto">
-                  <img className="" src={boy}></img>
+                  <img className="" src={boy} alt="..."></img>
                 </div>
               </div>
             </div>
           </div>
 
-                        {/* Latest Discounted Products */}
+          {/* Latest Discounted Products */}
 
+          <div className="pt-5">
+            <p className="discount d-flex justify-content-center">
+              Latest Discounted Products
+            </p>
+            <p className="discount2 d-flex justify-content-center">
+              See Our latest discounted products below. Choose your daily needs{" "}
+              <br /> from here and get a special discount with free shipping.
+            </p>
+          </div>
+          {/* pumpkin */}
 
-        <div className="pt-5">
-        <p className="discount d-flex justify-content-center">Latest Discounted Products</p>
-        <p className="discount2 d-flex justify-content-center">See Our latest discounted products below. Choose your daily needs <br/> from here and get a special discount with free shipping.</p>
-        </div>
-                            {/* pumpkin */}
-
-
-        <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 pt-5">
-
-           {list2.map((items) =>
-           <Pumpkins key={items.id} items={items}/>
-           )}
-
-          </div> 
+          <div className="row row-cols-2 row-cols-lg-5 g-2 g-lg-3 pt-5">
+            {list2.map((items) => (
+              <Pumpkins key={items.id} items={items} />
+            ))}
+          </div>
         </div>
       </div>
     </>

@@ -9,7 +9,7 @@ const list = [
         id:2,
         quantity:1,
         product:"Green Leaf",
-        price:10
+        price:10,
     },
     {
         id:3,

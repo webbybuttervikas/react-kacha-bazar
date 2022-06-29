@@ -56,3 +56,29 @@
     -webkit-transform: scale(1.2); /* Safari 3-8 */
     transform: scale(1.2); 
 }
+
+
+.button111{
+width: inherit;
+font-size: 30px;
+background-color: #02752799;
+position: relative;
+opacity: 0;
+transition: 1s;
+top:-29px;
+margin-right: 1px;
+border-radius: 10px;
+color: white;
+padding-bottom: 7px;
+}
+
+.boxx11:hover .button111{
+    opacity: 1;
+    bottom: 0px;
+}
+
+.textin{
+font-size: 20px;
+padding-bottom: ;
+
+}

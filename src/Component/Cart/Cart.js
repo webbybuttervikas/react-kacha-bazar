@@ -1,29 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import "../Cart/Cart.css";
+import { data } from "../context/Context";
 
-const Cart = ({ cart, setCart, handleChange }) => {
-  const [price, setPrice] = useState(0);
+const Cart = ({}) => {
 
-  const handleRemove = (id) => {
-    const arr = cart.filter((item) => item.id !== id);
-    setCart(arr);
-    handlePrice();
-  };
+const {cart,handleChange,handleRemove,price} = useContext(data)  
 
-  const handlePrice = () => {
-    let ans = 0;
-    cart.map((item) => (ans += item.quantity * item.price));
-    setPrice(ans);
-  };
-  useEffect(() => {
-    handlePrice();
-  });
 
   return (
     <article>
     {cart.map((item) => (
       <div className="cart_box" key={item.id}>
-        <div className="cart_img">
+        <div className="">
           <p>{item.product}</p>
         </div>
         <div>

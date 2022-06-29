@@ -1,11 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
+import { data } from "../context/Context";
 import greenleaf from "../images/GreenLeaf.jpg";
 import "./GreenLeaf.css";
-import list from "../Data/Data";
-import { StepIcon } from "@mui/material";
 
-const GreenLeaf = ({ item, handleClick, handleIcon, icon, SetIcon }) => {
+const GreenLeaf = ({item}) => {
   const { id, quantity, product, price } = item;
+  const {handleClick,handleIcon} = useContext(data)
+  const [buttontext, setButtontext] = useState("Add To Cart");
+
+  const handleText = () => {
+    setButtontext("Item Added");
+  };
 
   return (
     <>
@@ -17,13 +22,16 @@ const GreenLeaf = ({ item, handleClick, handleIcon, icon, SetIcon }) => {
           <span className="quantity mx-2 d-block">{quantity}</span>
           <span className="productname mx-2 d-block">{product}</span>
           <span className="currency mx-2 my-5 d-inline">{price} $</span>
-          <i
-            className="icon1 fa-solid fa-bag-shopping"
+          <button
             onClick={() => {
               handleClick(item);
               handleIcon();
+              handleText();
             }}
-          ></i>
+            className="button111 px-2 "
+          >
+            <span className="textin">{buttontext}</span>
+          </button>
         </div>
       </div>
     </>

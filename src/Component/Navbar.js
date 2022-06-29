@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useContext, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -9,8 +9,13 @@ import Badge from '@mui/material/Badge';
 import { styled } from '@mui/material/styles';
 import IconButton from '@mui/material/IconButton';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import { data } from "./context/Context";
 
-const Navbarr = ({ setShow, cart, setCart, icon }) => {
+const Navbarr = ({}) => {
+
+
+  const {cart,setShow,icon, handleChange, handleRemove, price} = useContext(data)
+  
   const StyledBadge = styled(Badge)(({ theme }) => ({
     '& .MuiBadge-badge': {
       right: -3,
@@ -54,7 +59,7 @@ const Navbarr = ({ setShow, cart, setCart, icon }) => {
 
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-primary "
               data-bs-toggle="modal"
               data-bs-target="#exampleModal"
             >
@@ -73,7 +78,7 @@ const Navbarr = ({ setShow, cart, setCart, icon }) => {
               aria-labelledby="exampleModalLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog">
+              <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">
@@ -88,12 +93,27 @@ const Navbarr = ({ setShow, cart, setCart, icon }) => {
                   </div>
                   <div class="modal-body">
                     {cart.map((item) => (
-                      <div>
-                      <p className="">{item.product}</p>
-                      <p>{item.price} $</p>
-                      </div>
-                      
-                    ))}
+                      <div className="cart_box" key={item.id}>
+        <div className="">
+          <p>{item.product}</p>
+        </div>
+        <div>
+          <button className="btn btn-primary"  onClick={() => handleChange(item, 1)}>+</button>
+          <button type="button" className="btn btn-outline-secondary">{item.quantity}</button>
+          <button className="btn btn-primary" onClick={() => handleChange(item, -1)}>-</button>
+        </div>
+        <div>
+          <button type="button" className="btn btn-outline-secondary mx-5">{item.price} $</button>
+          <button type="button" className="btn btn-danger mx-5" onClick={() => handleRemove(item.id)}>Remove</button>
+        </div>
+      </div>
+    ))}
+
+    <div className="total">
+      <span className="text111">Total Price of your Cart</span>
+      <span className="text111 mx-5">$  {price}</span>
+    </div>
+                    
                   </div>
                   <div class="modal-footer">
                     <button
